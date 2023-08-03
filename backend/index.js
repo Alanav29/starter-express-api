@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 const app = express();
 app.all("/", (req, res) => {
 	console.log("Just got a request!");
